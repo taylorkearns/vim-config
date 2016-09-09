@@ -29,15 +29,16 @@ else
   "
   " Colorschemes
   "
-  Plugin 'tpope/vim-vividchalk'
-  Plugin 'chriskempson/base16-vim'
-  Plugin 'molokai'
-  Plugin 'altercation/vim-colors-solarized'
-  Plugin 'wgibbs/vim-irblack'
-  Plugin 'chriskempson/vim-tomorrow-theme'
-  Plugin 'candycode.vim'
   Plugin 'Colour-Sampler-Pack'
+  Plugin 'altercation/vim-colors-solarized'
+  Plugin 'bcicen/vim-vice'
+  Plugin 'candycode.vim'
+  Plugin 'chriskempson/base16-vim'
+  Plugin 'chriskempson/vim-tomorrow-theme'
   Plugin 'flazz/vim-colorschemes'
+  Plugin 'molokai'
+  Plugin 'tpope/vim-vividchalk'
+  Plugin 'wgibbs/vim-irblack'
 
   "
   " Ruby / Rails
