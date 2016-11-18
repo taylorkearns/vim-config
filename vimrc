@@ -116,7 +116,6 @@ else
   " Development Tool Integration
   "
   Plugin 'tpope/vim-fugitive'
-  Plugin 'airblade/vim-gitgutter'
   Plugin 'sjl/vitality.vim'
 
   call vundle#end()
