@@ -30,6 +30,7 @@ else
   " Colorschemes
   "
   Plugin 'Colour-Sampler-Pack'
+  Plugin 'alessandroyorba/sidonia'
   Plugin 'altercation/vim-colors-solarized'
   Plugin 'bcicen/vim-vice'
   Plugin 'candycode.vim'
