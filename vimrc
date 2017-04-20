@@ -38,6 +38,7 @@ else
   Plugin 'chriskempson/vim-tomorrow-theme'
   Plugin 'flazz/vim-colorschemes'
   Plugin 'molokai'
+  Plugin 'morhetz/gruvbox'
   Plugin 'tpope/vim-vividchalk'
   Plugin 'wgibbs/vim-irblack'
 
