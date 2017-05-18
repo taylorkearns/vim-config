@@ -45,35 +45,35 @@ else
   "
   " Ruby / Rails
   "
-  Plugin 'tpope/vim-rails'
-  Plugin 'tpope/vim-endwise'
   Plugin 'ecomba/vim-ruby-refactoring'
   Plugin 'jgdavey/vim-blockle'
-  Plugin 'tpope/vim-rbenv'
+  Plugin 'tpope/vim-endwise'
+  Plugin 'tpope/vim-rails'
   Plugin 'tpope/vim-rake'
+  Plugin 'tpope/vim-rbenv'
 
   "
   " General Editing
   "
-  Plugin 'tpope/vim-repeat'
-  Plugin 'tpope/vim-surround'
-  Plugin 'scrooloose/nerdcommenter'
-  Plugin 'tpope/vim-unimpaired'
-  Plugin 'godlygeek/tabular'
-  Plugin 'vim-airline/vim-airline'
-  Plugin 'vim-airline/vim-airline-themes'
+  Plugin 'MarcWeber/vim-addon-mw-utils'
+  Plugin 'YankRing.vim'
+  Plugin 'brysgo/quickfixfix'
+  Plugin 'editorconfig/editorconfig-vim'
   Plugin 'ervandew/supertab'
-  Plugin 'nertzy/j-split'
+  Plugin 'godlygeek/tabular'
+  Plugin 'kien/rainbow_parentheses.vim'
   Plugin 'matt-royal/diffthese'
   Plugin 'nertzy/edit-plus'
-  Plugin 'brysgo/quickfixfix'
-  Plugin 'vim-scripts/L9'
-  Plugin 'MarcWeber/vim-addon-mw-utils'
+  Plugin 'nertzy/j-split'
+  Plugin 'scrooloose/nerdcommenter'
   Plugin 'tomtom/tlib_vim'
-  Plugin 'YankRing.vim'
-  Plugin 'editorconfig/editorconfig-vim'
   Plugin 'tpope/vim-projectionist'
-  Plugin 'kien/rainbow_parentheses.vim'
+  Plugin 'tpope/vim-repeat'
+  Plugin 'tpope/vim-surround'
+  Plugin 'tpope/vim-unimpaired'
+  Plugin 'vim-airline/vim-airline'
+  Plugin 'vim-airline/vim-airline-themes'
+  Plugin 'vim-scripts/L9'
 
   "
   " Window Management
@@ -94,31 +94,31 @@ else
   "
   " Languages
   "
-  Plugin 'vim-ruby/vim-ruby'
+  Plugin 'briancollins/vim-jst'
+  Plugin 'chrisbra/csv.vim'
+  Plugin 'digitaltoad/vim-jade'
+  Plugin 'elzr/vim-json'
+  Plugin 'fatih/vim-go'
+  Plugin 'guns/vim-clojure-static'
+  Plugin 'juvenn/mustache.vim'
+  Plugin 'kchmck/vim-coffee-script'
+  Plugin 'lambdatoast/elm.vim'
+  Plugin 'mxw/vim-jsx'
+  Plugin 'nono/vim-handlebars'
   Plugin 'pangloss/vim-javascript'
   Plugin 'plasticboy/vim-markdown'
-  Plugin 'slim-template/vim-slim'
-  Plugin 'nono/vim-handlebars'
-  Plugin 'kchmck/vim-coffee-script'
-  Plugin 'tpope/vim-haml'
-  Plugin 'tpope/vim-cucumber'
   Plugin 'quentindecock/vim-cucumber-align-pipes'
-  Plugin 'juvenn/mustache.vim'
-  Plugin 'fatih/vim-go'
   Plugin 'rosstimson/scala-vim-support'
-  Plugin 'guns/vim-clojure-static'
-  Plugin 'chrisbra/csv.vim'
-  Plugin 'elzr/vim-json'
-  Plugin 'briancollins/vim-jst'
-  Plugin 'digitaltoad/vim-jade'
-  Plugin 'mxw/vim-jsx'
-  Plugin 'lambdatoast/elm.vim'
+  Plugin 'slim-template/vim-slim'
+  Plugin 'tpope/vim-cucumber'
+  Plugin 'tpope/vim-haml'
+  Plugin 'vim-ruby/vim-ruby'
 
   "
   " Development Tool Integration
   "
-  Plugin 'tpope/vim-fugitive'
   Plugin 'sjl/vitality.vim'
+  Plugin 'tpope/vim-fugitive'
 
   call vundle#end()
 
