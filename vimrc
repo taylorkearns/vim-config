@@ -12,6 +12,8 @@
 " Please do not add configuration to this file, unless it *really* needs to
 " come first or last, like Vundle and sourcing the machine-local config.
 " Instead, add it to one of the files in .vim/init, or create a new one.
+"
+" After adding new packages, run `~/.vim/bin/update` to install
 
 set nocompatible               " be iMproved
 filetype off                   " required!
@@ -103,9 +105,11 @@ else
   Plugin 'juvenn/mustache.vim'
   Plugin 'kchmck/vim-coffee-script'
   Plugin 'lambdatoast/elm.vim'
+  Plugin 'leafgarland/typescript-vim'
   Plugin 'mxw/vim-jsx'
   Plugin 'nono/vim-handlebars'
   Plugin 'pangloss/vim-javascript'
+  Plugin 'peitalin/vim-jsx-typescript'
   Plugin 'plasticboy/vim-markdown'
   Plugin 'quentindecock/vim-cucumber-align-pipes'
   Plugin 'rosstimson/scala-vim-support'
@@ -121,6 +125,15 @@ else
   Plugin 'tpope/vim-fugitive'
 
   call vundle#end()
+
+  "
+  " Plug plugins
+  "
+  call plug#begin('~/.vim/plugged')
+
+  Plug 'prettier/vim-prettier', { 'do': 'yarn install' }
+
+  call plug#end()
 
   filetype plugin indent on
 
