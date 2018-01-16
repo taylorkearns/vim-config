@@ -13,7 +13,8 @@
 " come first or last, like Vundle and sourcing the machine-local config.
 " Instead, add it to one of the files in .vim/init, or create a new one.
 "
-" After adding new packages, run `~/.vim/bin/update` to install
+" After adding new Vundle plugins, run `~/.vim/bin/update`
+" After adding new Plug plugins, open vim and run :PlugInstall
 
 set nocompatible               " be iMproved
 filetype off                   " required!
