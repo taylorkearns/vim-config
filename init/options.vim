@@ -54,12 +54,15 @@ set hls                         " search with highlights by default
 
 " Write all writeable buffers when changing buffers or losing focus.
 set autowriteall                " Save when doing various buffer-switching things.
-autocmd BufLeave,FocusLost * silent! wall  " Save anytime we leave a buffer or MacVim loses focus.
+
+" Save anytime we leave a buffer or MacVim loses focus.
+" autocmd BufLeave,FocusLost * silent! wall
 
 let g:sql_type_default="postgresql"
 
 " Turn off ri tooltips that don't work with Ruby 1.9 yet
 " http://code.google.com/p/macvim/issues/detail?id=342
-if has("gui_running")
-  set noballooneval
-endif
+" I don't think we need this as of 9/5/18
+" if has("gui_running")
+  " set noballooneval
+" endif
