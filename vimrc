@@ -32,18 +32,10 @@ else
   "
   " Colorschemes
   "
-  Plugin 'Colour-Sampler-Pack'
-  Plugin 'alessandroyorba/sidonia'
   Plugin 'altercation/vim-colors-solarized'
   Plugin 'bcicen/vim-vice'
-  Plugin 'candycode.vim'
-  Plugin 'chriskempson/base16-vim'
-  Plugin 'chriskempson/vim-tomorrow-theme'
-  Plugin 'flazz/vim-colorschemes'
-  Plugin 'molokai'
   Plugin 'morhetz/gruvbox'
-  Plugin 'tpope/vim-vividchalk'
-  Plugin 'wgibbs/vim-irblack'
+  Plugin 'rafi/awesome-vim-colorschemes'
 
   "
   " Ruby / Rails
@@ -125,6 +117,7 @@ else
   "
   Plugin 'sjl/vitality.vim'
   Plugin 'tpope/vim-fugitive'
+  Plugin 'rizzatti/dash.vim'
 
   call vundle#end()
 
