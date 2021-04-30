@@ -32,10 +32,8 @@ else
   "
   " Colorschemes
   "
-  Plugin 'altercation/vim-colors-solarized'
-  Plugin 'bcicen/vim-vice'
   Plugin 'morhetz/gruvbox'
-  Plugin 'rafi/awesome-vim-colorschemes'
+  Plugin 'aonemd/quietlight'
 
   "
   " Ruby / Rails
@@ -92,21 +90,15 @@ else
   "
   Plugin 'briancollins/vim-jst'
   Plugin 'chrisbra/csv.vim'
-  Plugin 'digitaltoad/vim-jade'
   Plugin 'elzr/vim-json'
   Plugin 'fatih/vim-go'
-  Plugin 'guns/vim-clojure-static'
   Plugin 'juvenn/mustache.vim'
-  Plugin 'kchmck/vim-coffee-script'
-  Plugin 'lambdatoast/elm.vim'
   Plugin 'leafgarland/typescript-vim'
   Plugin 'mxw/vim-jsx'
-  Plugin 'nono/vim-handlebars'
   Plugin 'pangloss/vim-javascript'
   Plugin 'peitalin/vim-jsx-typescript'
   Plugin 'plasticboy/vim-markdown'
   Plugin 'quentindecock/vim-cucumber-align-pipes'
-  Plugin 'rosstimson/scala-vim-support'
   Plugin 'slim-template/vim-slim'
   Plugin 'tpope/vim-cucumber'
   Plugin 'tpope/vim-haml'
@@ -116,8 +108,8 @@ else
   " Development Tool Integration
   "
   Plugin 'sjl/vitality.vim'
-  Plugin 'tpope/vim-fugitive'
   Plugin 'rizzatti/dash.vim'
+  Plugin 'tpope/vim-fugitive'
 
   call vundle#end()
 
