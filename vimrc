@@ -30,12 +30,6 @@ else
   Plugin 'VundleVim/Vundle.vim'
 
   "
-  " Colorschemes
-  "
-  Plugin 'morhetz/gruvbox'
-  Plugin 'aonemd/quietlight'
-
-  "
   " Ruby / Rails
   "
   Plugin 'ecomba/vim-ruby-refactoring'
